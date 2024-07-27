@@ -133,7 +133,7 @@ drop table orders_old;
 ``` bash
 pg_dump -U postgres test_database > /backup/test_dump_new.sql 
 ```
-Файл бэкапа: [test_dump_new.sql](https://github.com/megasts/06-db-04-postgresql/test_dump_new.sql)
+Файл бэкапа: [test_dump_new.sql](https://github.com/megasts/06-db-04-postgresql/blob/main/test_dump_new.sql)
 
 Чтобы добавить уникальность значения столбца `title` для таблиц `test_database` необходимо добавить свойство `UNIQUE`:
 
